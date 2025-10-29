@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl "Zen" Dimabayao | Security Architect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">
+                <span class="loader-name">KARL "ZEN" DIMABAYAO</span>
+                <span class="loader-title">Security Architect & Ethical Researcher</span>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">ZEN</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h4 class="hero-greeting">Hi, my name is</h4>
+                <h1 class="hero-name">Karl "Zen" Dimabayao</h1>
+                <h2 class="hero-title">Security Architect & Ethical Researcher</h2>
+                <p class="hero-description">
+                    Building robust digital defenses and deconstructing threats. First-year BSIS student at 
+                    Ateneo de Naga University, advancing towards a future in cybersecurity and ethical hacking.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <div class="code-line"></div>
+                        <div class="code-line short"></div>
+                        <div class="code-line"></div>
+                        <div class="code-line short"></div>
+                        <div class="code-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am an intensely driven first-year student at ADNU, pursuing a Bachelor of Science in 
+                        Information Systems. My core focus is on the architecture of secure systems and the 
+                        ethical deconstruction of malicious software.
+                    </p>
+                    <p>
+                        My journey began in web and application development, which provided a foundational 
+                        understanding of how systems are built. This naturally evolved into a deeper curiosity 
+                        about how they can be broken, leading me to the fields of malware development 
+                        (for analytical purposes) and penetration testing.
+                    </p>
+                    <p>
+                        I believe that to defend a system, one must first think like an attacker. My goal is 
+                        to leverage this mindset to contribute to a more secure digital world.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                        <div class="image-frame"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Proficiencies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front-End Development</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">HTML</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="100"></div>
+                        </div>
+                        <span class="skill-percent">Expert</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">CSS</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="75"></div>
+                        </div>
+                        <span class="skill-percent">Proficient</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JavaScript</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="50"></div>
+                        </div>
+                        <span class="skill-percent">Intermediate</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Application & Systems Development</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Java</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="100"></div>
+                        </div>
+                        <span class="skill-percent">Expert</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="50"></div>
+                        </div>
+                        <span class="skill-percent">Intermediate</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">C++ / C# / C</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="25"></div>
+                        </div>
+                        <span class="skill-percent">Familiar</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">x86 Assembly</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="45"></div>
+                        </div>
+                        <span class="skill-percent">Familiar</span>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Security Research & Offensive Security</h3>
+                    <div class="skill-item">
+                        <span class="skill-name">Malware Analysis & Development</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="70"></div>
+                        </div>
+                        <span class="skill-percent">Advanced</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Ethical Hacking Principles</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="20"></div>
+                        </div>
+                        <span class="skill-percent">Learning</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Phishing Campaign Analysis</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="30"></div>
+                        </div>
+                        <span class="skill-percent">Intermediate</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Spyware Analysis</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="25"></div>
+                        </div>
+                        <span class="skill-percent">Intermediate</span>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">VBS Scripting</span>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-level="50"></div>
+                        </div>
+                        <span class="skill-percent">Intermediate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IDE & Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Development Environment</h2>
+            <div class="tools-content">
+                <div class="tools-description">
+                    <p>My development workflow utilizes industry-standard tools and environments to ensure efficient, secure, and professional code delivery.</p>
+                </div>
+                <div class="tools-grid">
+                    <div class="tool-category">
+                        <h3>Code Editors & IDEs</h3>
+                        <div class="tools-list">
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Visual Studio Code</h4>
+                                    <p>Primary code editor with custom security-focused extensions</p>
+                                    <div class="tool-tags">
+                                        <span>Web Development</span>
+                                        <span>Python</span>
+                                        <span>JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-android"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Android Studio</h4>
+                                    <p>For mobile application development and security testing</p>
+                                    <div class="tool-tags">
+                                        <span>Java</span>
+                                        <span>Kotlin</span>
+                                        <span>Mobile Security</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-cube"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>IntelliJ IDEA</h4>
+                                    <p>For advanced Java development and enterprise applications</p>
+                                    <div class="tool-tags">
+                                        <span>Java</span>
+                                        <span>Enterprise</span>
+                                        <span>Debugging</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-category">
+                        <h3>Version Control & Collaboration</h3>
+                        <div class="tools-list">
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Git</h4>
+                                    <p>Distributed version control for tracking code changes</p>
+                                    <div class="tool-tags">
+                                        <span>Version Control</span>
+                                        <span>Branching</span>
+                                        <span>Collaboration</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>GitHub</h4>
+                                    <p>Code hosting platform for version control and collaboration</p>
+                                    <div class="tool-tags">
+                                        <span>Repositories</span>
+                                        <span>Open Source</span>
+                                        <span>CI/CD</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-code-branch"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Git Bash</h4>
+                                    <p>Command-line interface for Git operations on Windows</p>
+                                    <div class="tool-tags">
+                                        <span>CLI</span>
+                                        <span>Automation</span>
+                                        <span>Scripting</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-category">
+                        <h3>Security & Analysis Tools</h3>
+                        <div class="tools-list">
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Wireshark</h4>
+                                    <p>Network protocol analyzer for security and troubleshooting</p>
+                                    <div class="tool-tags">
+                                        <span>Network Analysis</span>
+                                        <span>Packet Inspection</span>
+                                        <span>Security</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-bug"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Burp Suite</h4>
+                                    <p>Web application security testing platform</p>
+                                    <div class="tool-tags">
+                                        <span>Penetration Testing</span>
+                                        <span>Web Security</span>
+                                        <span>Vulnerability</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tool-item">
+                                <div class="tool-icon">
+                                    <i class="fas fa-terminal"></i>
+                                </div>
+                                <div class="tool-info">
+                                    <h4>Metasploit</h4>
+                                    <p>Penetration testing framework for security validation</p>
+                                    <div class="tool-tags">
+                                        <span>Exploitation</span>
+                                        <span>Security Testing</span>
+                                        <span>Framework</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects & Research</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Project Chimera</h3>
+                    <p>A self-contained virtual environment designed to safely execute and analyze suspicious scripts (VBS, etc.) and monitor their behavior, network calls, and system modifications.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>VirtualBox API</span>
+                        <span>Wireshark</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>PhishNet</h3>
+                    <p>A web-based application that simulates various phishing techniques to educate users on identifying malicious emails and links.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>PHP</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Nexus</h3>
+                    <p>The very site you are on. A custom-built platform to showcase my work and publish findings on low-level programming and security concepts.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <h2 class="section-title">My Cybersecurity Philosophy</h2>
+            <div class="philosophy-content">
+                <div class="philosophy-text">
+                    <blockquote>
+                        "Understand the Build to Master the Break."
+                    </blockquote>
+                    <p>
+                        True security isn't about patching holes; it's about architecting systems where holes cannot exist. 
+                        My development background is the cornerstone of this approach, allowing me to understand the 
+                        <em>why</em> and <em>how</em> of vulnerabilities from the ground up.
+                    </p>
+                </div>
+                
+                <div class="goals">
+                    <h3>Forward-Looking Goals</h3>
+                    <div class="goals-list">
+                        <div class="goal-item">
+                            <div class="goal-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="goal-content">
+                                <h4>Short-Term</h4>
+                                <p>Secure an internship with a security-focused firm or research team to apply my analytical skills in a real-world environment.</p>
+                            </div>
+                        </div>
+                        <div class="goal-item">
+                            <div class="goal-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="goal-content">
+                                <h4>Mid-Term</h4>
+                                <p>Contribute to open-source security tools and obtain industry-recognized certifications (e.g., CEH, CompTIA Security+).</p>
+                            </div>
+                        </div>
+                        <div class="goal-item">
+                            <div class="goal-icon">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                            <div class="goal-content">
+                                <h4>Long-Term</h4>
+                                <p>Lead red team operations or advanced threat research, developing novel methodologies to counter emerging cyber threats.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>
+                        Ready to build a more secure future? Let's connect. I am always interested in discussing 
+                        opportunities, collaborative projects, or the latest in security research.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>k.ancel.dimabayao@email.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/YourZenProfile</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/karldimabayao</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Ateneo de Naga University</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">ZEN</a>
+                </div>
+                <p class="footer-text">
+                    Building secure digital futures, one line of code at a time.
+                </p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p class="footer-copyright">
+                    &copy; 2023 Karl "Zen" Dimabayao. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
